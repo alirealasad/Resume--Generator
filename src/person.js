@@ -1,96 +1,90 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'Asad',
+    first: 'John',
     middle: '',
-    last: 'Ali',
+    last: 'Doe',
   },
-  image:'https://i.imgur.com/hMduUXr.jpg',
-  about:`Hello I'm a Full Stack Developer with Frontend bias, I have 3+ years real world Working Experience.`,
-  position: 'Full Stack Developer',
+  image:'https://demos.creative-tim.com/paper-kit-2-pro/assets/img/faces/joe-gardner-2.jpg',
+  about:'An artist of considerable range, Jane Faker — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure.',
+  position: 'Software Developer',
   birth: {
-    year: 2000,
-    location: 'Durgapur,India'
+    year: 1990,
+    location: 'New York'
   },
   experience: [{
       img:'http://moderncastings.com/images/logo3.png',
-      company: 'Modern Castings',
-      website: 'http://moderncastings.com/',
-      position: 'Full-Time',
-      timeperiod: 'January 2017 - December 2019',
-      description: 'Junior Frontend Developer'
+      company: 'Company A',
+      website: 'https://github.com/',
+      position: 'Developer',
+      timeperiod: 'since January 2016',
+      description: 'Programming and watching cute cat videos.'
+    },
+    {
+      img:'http://moderncastings.com/images/logo3.png',
+      company: 'Company B',
+      position: 'Frontend Developer',
+      timeperiod: 'January 2015 - December 2015',
+      description: 'Fulfillment of extremely important tasks.'
     }
   ],
   education: [{
       img:'https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/p960x960/69066763_112083180163145_4398043165324476416_o.png?_nc_cat=108&_nc_ohc=ITWVE1xx7uoAX--TaeU&_nc_ht=scontent.fccu3-1.fna&oh=a8c5f92b42084ec387c0f63f14529f62&oe=5ED6F29A',
-      degree: 'Diploma in Computer Science',
-      website: 'https://en.wikipedia.org/wiki/Kanyapur_Polytechnic',
-      timeperiod: 'August 2017 - August 2019 (Expected)',
-      description: 'Kanyapur Polytechnic,AICTE,West Bengal,India.'
+      degree: 'Master of Arts',
+      website: 'https://github.com/',
+      timeperiod: 'March 2012 - December 2013',
+      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
     }
   ],
   projects: [{
-    name:'NowChat',
-    platform:'Created with Vue & Express',
-    description:'a social media website created by me',
-    website: 'https://nowchat.in/'
-  },
-  {
-      name:'NowChat',
-      platform:'Created with Vue & Express',
-      description:'a social media website created by me',
-      website: 'https://nowchat.in/'
-    },
-],
+    name:'best-resume-ever',
+    platform:'Vue',
+    description:'Build fast  and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS',
+    website: 'https://github.com/'
+  }],
   // skill level goes 0 to 100
   skills: [{
-      name: 'HTML5, CSS3 & SCSS',
-      level: '100',
-      type:'danger'
-    },
-    {
-      name: 'JavaScript (ES6+)',
-      level: '95',
-      type:'warning'
-    },
-    {
-      name: 'Node.js (incl. Express.js)',
-      level: '95',
-      type:'danger'
-    },
-    {
-      name: 'Vue.js (incl. Vuex, Vue-router)',
-      level: '95',
+      name: 'HTML5',
+      level: '99',
       type:'success'
     },
     {
-      name: 'TypeScript',
+      name: 'CSS3',
+      level: '95',
+      type:'danger'
+    },
+    {
+      name: 'JavaScript',
       level: '97'
     },
     {
-      name: 'NoSql (MongoDB & NeDB)',
-      level: '93',
-      type:'success'
+      name: 'Node.js',
+      level: '93'
     },
     {
-      name: 'AWS (S3, CloudFornt & EC2), Netlify & Heroku',
+      name: 'Angular 2',
       level: '60'
     },
     {
-      name: 'React (incl. React Native)',
-      level: '80',
-      type:'info'
+      name: 'TypeScript',
+      level: '80'
+    },
+    {
+      name: 'ES.Next',
+      level: '70'
+    },
+    {
+      name: 'Docker',
+      level: '99'
     }
   ],
   skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
   contact: {
-    email: 'alirealasad@gmail.com',
-    phone: '+91 8145 776 143',
-    street: 'Durgapur',
-    city: 'West Bengal',
-    linkedin:'alirealasad',
-    website: 'asadali.netlify.com',
-    github: 'alirealasad',
-    youtube:'codingwithasad'
+    email: 'john.doe@email.com',
+    phone: '0123 456789',
+    street: '1234 Broadway',
+    city: 'New York',
+    website: 'johndoe.com',
+    github: 'johnyD'
   }
 };
