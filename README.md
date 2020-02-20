@@ -10,7 +10,7 @@
 <h4 align="center">
   :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever!
   <br><br>
-  Made with Vue and LESS.
+  Made with Vue.
 </h4>
 
 <br>
@@ -64,14 +64,12 @@ Feel free to add your own templates, fix bugs or improve the docs. Any kind of h
 This project uses several open source packages:
 
 * <a href="https://github.com/vuejs/vue" target="_blank">Vue</a>
-* <a href="https://github.com/less/less.js" target="_blank">LESS</a>
+* <a href="https://github.com/twbs/bootstrap" target="_blank">Bootstrap</a>
 * <a href="https://github.com/mixu/electroshot" target="_blank">Electroshot</a>
 
-<br>
+This project inspired from These projects:
+* <a href="https://github.com/cristijora/best-resume-ever" target="_blank">cristijora's best-resume-ever</a>
+* <a href="https://github.com/salomonelli/best-resume-ever" target="_blank">cristijora's best-resume-ever</a>
 
-
----
-
-> [sarasteiert.com](https://www.sarasteiert.com) &nbsp;&middot;&nbsp;
-> GitHub [@salomonelli](https://github.com/salomonelli) &nbsp;&middot;&nbsp;
-> Twitter [@salomonelli](https://twitter.com/salomonelli)
+This project takes design form:
+* <a href="https://github.com/creativetimofficial/paper-kit-2" target="_blank">paper-kit-2 by creativetimofficial</a>
